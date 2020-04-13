@@ -11,7 +11,7 @@ end
 end
 
 def move(board, index, user_marker = "X")
-  board[index.to_i]
+  board[index]
 end
 
 # code your input_to_index and move method here!
